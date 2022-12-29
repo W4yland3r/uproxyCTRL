@@ -17,7 +17,7 @@ Thrown together quickly. Use with caution.
 Get uproxy and put uproxyCTRL in the same directory. 
 ## Usage
 ```bash
-/uproxyctrl.sh [option]
+./uproxyctrl.sh [option]
 
 Options:
 ├─ help            Display this help.
