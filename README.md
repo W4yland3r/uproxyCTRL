@@ -1,22 +1,21 @@
 
 # uproxyCTRL
+A tool to control *uproxy v0.91* by Alessandro Staltari from the command line.  
 
-A tool to control uproxy from the command line.\
 Thrown together quickly. Use with caution.
 
-
 ## Features
-
 - Get status of uproxy.
 - Start, stop and restart uproxy.
 - Show listening and used ports.
 
-
 ## Installation
+- Get [uproxy](http://way.toxik.info/ctfpug/uproxy.zip).
+- Put uproxyCTRL.sh in the same directory as uproxy.
+- Make sure everything that needs to be is executable.
 
-Get uproxy and put uproxyCTRL in the same directory. 
 ## Usage
-```bash
+```
 ./uproxyCTRL.sh [option]
 
 Options:
@@ -29,6 +28,19 @@ Options:
 └─ usedports       Display all ports uproxy is using.
 ```
 Supports trailing  -y to answer questions with "yes" automatically.
-## License
 
+## Version history
+```
+v1.1
+- Renamed.
+- The option "restart" now asks if it should start uproxy if it detects it not to be running,
+- The options "stop" and "restart" now support a trailing -y for automation.
+- Better and clearer output.
+- Cleaning up.
+
+v1.0
+- Initial stable.
+```
+
+## License
 [CC BY-SA 4.0.](http://creativecommons.org/licenses/by-sa/4.0/)
