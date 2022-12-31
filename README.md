@@ -10,7 +10,7 @@ Thrown together quickly. Use with caution.
 - Show listening and used ports.
 
 ## Installation
-- Get [uproxy](http://way.toxik.info/ctfpug/uproxy.zip).
+- Get [uproxy v0.91]([http://way.toxik.info/ctfpug/uproxy.zip](http://way.toxik.info/ctfpug/uproxy_%20v0.91.zip)).
 - Put uproxyCTRL.sh in the same directory as uproxy.
 - Make sure everything that needs to be is executable.
 
